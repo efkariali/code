@@ -1,0 +1,25 @@
+import numpy as np
+
+def average(data):
+  """
+  Veri kümesinden ortalamayı hesaplar.
+
+  Args:
+    data: Veri kümesi.
+
+  Returns:
+    Ortalama.
+  """
+
+  return np.mean(data)
+
+
+if __name__ == "__main__":      
+  # Veri kümesi.
+  data = [123, 456, 789, 234, 567, 890, 345, 678, 901, 789]
+
+  # Ortalamayı hesapla.
+  average = average(data)
+
+  # Ortalamayı yazdır.
+  print(average)
